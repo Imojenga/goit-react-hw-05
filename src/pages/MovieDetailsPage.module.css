@@ -1,0 +1,34 @@
+.link {
+  text-decoration: none;
+  font-size: 24px;
+  color: red;
+  font-weight: 600;
+  padding: 24px;
+}
+
+.link:hover,
+.link:focus,
+.navLink:hover,
+.navLink:focus,
+.active {
+  text-decoration: underline;
+}
+
+.movie {
+  display: flex;
+  gap: 24px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  font-weight: 600;
+  padding: 24px;
+}

@@ -1,0 +1,9 @@
+.container {
+  margin: 0 auto;
+  padding: 48px;
+  max-width: 1024px;
+}
+
+.page {
+  border-top: 4px solid black;
+}
