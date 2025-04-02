@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import MovieList from '../components/MovieList/MovieList';
-import { fetchMovieByQuery } from '../tmdb-api';
+import MovieList from '../../components/MovieList/MovieList';
+import { fetchMovieByQuery } from '../../tmdb-api';
 import { useSearchParams } from 'react-router-dom';
 import css from './MoviesPage.module.css';
 

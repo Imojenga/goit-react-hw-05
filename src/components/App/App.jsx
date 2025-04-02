@@ -5,10 +5,14 @@ import Navigation from '../Navigation/Navigation';
 import MovieCast from '../MovieCast/MovieCast';
 import MovieReviews from '../MovieReviews/MovieReviews';
 
-const HomePage = lazy(() => import('../../pages/HomePage'));
-const MoviesPage = lazy(() => import('../../pages/MoviesPage'));
-const MovieDetailsPage = lazy(() => import('../../pages/MovieDetailsPage'));
-const NotFoundPage = lazy(() => import('../../pages/NotFoundPage'));
+const HomePage = lazy(() => import('../../pages/HomePage/HomePage'));
+const MoviesPage = lazy(() => import('../../pages/MoviesPage/MoviesPage'));
+const MovieDetailsPage = lazy(() =>
+  import('../../pages/MovieDetailsPage/MovieDetailsPage')
+);
+const NotFoundPage = lazy(() =>
+  import('../../pages/NotFoundPage/NotFoundPage')
+);
 
 export default function App() {
   return (

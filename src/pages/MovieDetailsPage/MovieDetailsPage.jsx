@@ -6,7 +6,7 @@ import {
   Link,
   useLocation,
 } from 'react-router-dom';
-import { fetchMovieById } from '../tmdb-api';
+import { fetchMovieById } from '../../tmdb-api';
 import css from './MovieDetailsPage.module.css';
 import clsx from 'clsx';
 
